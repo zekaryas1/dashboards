@@ -1,6 +1,28 @@
+## UI challenges
+<!-- TOC -->
+  * [UI challenges](#ui-challenges)
+    * [Project Images](#project-images)
+    * [Tech stack](#tech-stack)
+  * [NEXT.js Getting Started](#nextjs-getting-started)
+    * [Learn More](#learn-more)
+    * [Deploy on Vercel](#deploy-on-vercel)
+<!-- TOC -->
+
+### Project Images
+- ![demo image](images/fintech%20ui.png)
+- ![demo image](images/learn%20ui.png)
+
+### Tech stack
+- A collection of dashboard UI challenges done with
+    - next.js
+    - tailwind
+    - heroicons
+    - typescript
+
+## NEXT.js Getting Started
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
 First, run the development server:
 
@@ -22,7 +44,7 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+### Learn More
 
 To learn more about Next.js, take a look at the following resources:
 
@@ -31,7 +53,7 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+### Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
