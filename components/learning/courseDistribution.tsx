@@ -1,4 +1,4 @@
-import {ChartPieIcon, ShoppingBagIcon} from "@heroicons/react/24/outline";
+import {ChartPieIcon} from "@heroicons/react/24/outline";
 import {Legend, Pie, PieChart, Tooltip} from "recharts";
 import React from "react";
 

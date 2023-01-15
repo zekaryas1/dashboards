@@ -1,4 +1,3 @@
-import Image from "next/image";
 import HistoryItem from "@/components/fintech/history/historyItem";
 
 function History() {
@@ -16,7 +15,7 @@ function History() {
             <HistoryItem name="Eliana cage" title="Loan received" time="10:43 AM" price={350} status="Completed"/>
             <HistoryItem name="Elizabeth nicolas" title="Car insurance" time="06:01 AM" price={4500} status="Pending"/>
             <HistoryItem name="Jack dorsal" title="Online payment" time="09:28 PM" price={120} status="Failed"/>
-            <HistoryItem name="Tomas jef"  title="Coffee tip" time="09:43 PM" price={4} status="Completed"/>
+            <HistoryItem name="Tomas jef" title="Coffee tip" time="09:43 PM" price={4} status="Completed"/>
 
 
         </div>

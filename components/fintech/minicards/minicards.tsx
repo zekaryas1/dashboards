@@ -1,13 +1,7 @@
-import {
-    ArrowsUpDownIcon, BanknotesIcon,
-    BuildingLibraryIcon,
-    ClipboardDocumentCheckIcon,
-    CreditCardIcon,
-    ShoppingCartIcon
-} from "@heroicons/react/24/outline";
+import {ArrowsUpDownIcon, BanknotesIcon, BuildingLibraryIcon, CreditCardIcon} from "@heroicons/react/24/outline";
 import Minicard from "@/components/fintech/minicards/minicard";
 
-function Minicards(){
+function Minicards() {
     return <div className="flex flex-wrap mt-4 gap-6">
         <Minicard title="Credit amount" price={1200}>
             <CreditCardIcon className="w-8 h-8"/>

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import {ArrowTrendingUpIcon, ShoppingBagIcon} from "@heroicons/react/24/outline";
+import {ArrowTrendingUpIcon} from "@heroicons/react/24/outline";
 import React from "react";
 
 const Member = ({rank, name, score}: { rank: number, name: string, score: number }) => {
