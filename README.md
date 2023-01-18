@@ -9,8 +9,8 @@
 <!-- TOC -->
 
 ### Project Images
-- ![demo image](images/fintech%20ui.png)
-- ![demo image](images/learn%20ui.png)
+- ![demo image](images/fintech.png)
+- ![demo image](images/learn.png)
 
 ### Tech stack
 - A collection of dashboard UI challenges done with
