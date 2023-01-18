@@ -1,15 +1,22 @@
-import {TrophyIcon} from "@heroicons/react/24/outline";
+import { TrophyIcon } from "@heroicons/react/24/outline";
 import React from "react";
 import LeaderBoard from "@/components/learning/members";
-import CourseDistribution from "@/components/learning/courseDistribution";
 import ActiveCourseInformation from "@/components/learning/activeCourseInformation";
-import TimeSpent from "@/components/learning/timeSpent";
+import dynamic from "next/dynamic";
+
+const CourseDistribution = dynamic(import("@/components/learning/courseDistribution"), {
+    ssr: false,
+});
+
+const TimeSpent = dynamic(import("@/components/learning/timeSpent"), {
+    ssr: false,
+});
 
 function Learn() {
 
-    const Info = ({score, scoreTitle}: { score: number, scoreTitle: string }) => {
+    const Info = ({ score, scoreTitle }: { score: number, scoreTitle: string }) => {
         return <div className="hover:shadow-xl cursor-pointer h-32 shadow bg-white p-4 flex flex-col">
-            <TrophyIcon className="w-5 h-5"/>
+            <TrophyIcon className="w-5 h-5" />
             <div className="flex-1 text-center">
                 <h2 className="text-xl font-bold">{score}</h2>
                 <p className="text-sm text-neutral-500">{scoreTitle}</p>
@@ -23,25 +30,25 @@ function Learn() {
 
             <div className="gap-8 grid grid-cols-1 xl:grid-cols-2 mb-4">
 
-                <CourseDistribution/>
+                <CourseDistribution />
 
                 <div className="gap-8 grid grid-cols-1">
 
                     <div className="grid grid-cols-2 gap-8">
-                        <Info score={2} scoreTitle="Course certificate"/>
-                        <Info score={35} scoreTitle="Reward points"/>
+                        <Info score={2} scoreTitle="Course certificate" />
+                        <Info score={35} scoreTitle="Reward points" />
                     </div>
 
-                    <LeaderBoard/>
+                    <LeaderBoard />
 
                 </div>
             </div>
 
-            <TimeSpent/>
+            <TimeSpent />
 
         </div>
         <div className="hidden lg:block bg-gray-200 w-20 w-96 p-8 overflow-y-scroll">
-            <ActiveCourseInformation/>
+            <ActiveCourseInformation />
         </div>
     </>
 }

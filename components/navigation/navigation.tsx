@@ -1,4 +1,4 @@
-import {AcademicCapIcon, UsersIcon, WalletIcon} from "@heroicons/react/24/outline";
+import {AcademicCapIcon, ShoppingCartIcon, WalletIcon} from "@heroicons/react/24/outline";
 import NavigationItem from "@/components/navigation/navigationItem";
 import {useRouter} from "next/router";
 
@@ -14,8 +14,8 @@ function Navigation() {
         <NavigationItem isActive={pathname == '/learn'} title="Learning management ui" url="learn">
             <AcademicCapIcon className="h-5 w-5 text-gray-500"/>
         </NavigationItem>
-        <NavigationItem title="Project management ui: coming soon" url="/404">
-            <UsersIcon className="h-5 w-5 text-gray-500"/>
+        <NavigationItem isActive={pathname == '/commerce'} title="Commerce" url="commerce">
+            <ShoppingCartIcon className="h-5 w-5 text-gray-500"/>
         </NavigationItem>
     </div>
 }

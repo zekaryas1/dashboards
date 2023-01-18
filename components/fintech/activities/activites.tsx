@@ -1,7 +1,5 @@
 import {
-    ArrowDownIcon,
     EyeDropperIcon,
-    HomeModernIcon,
     LightBulbIcon,
     TruckIcon,
     WifiIcon
